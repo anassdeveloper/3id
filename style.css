@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-light:#ffd60a;
+    --colo-yellow:#ffc300;
+    --color-dark-b:#000814;
+    --color-dark-b2:#001d3d;
+    --color-dark-b3:#003566;
+}
+h2{
+    color: #001d3d;
+}
+.card img{
+    margin: auto;
+}
+.card p:nth-child(1){
+    font-size: 2rem;
+    color: var(--color-dark-b2);
+}
+.card p:nth-child(2){
+    font-size: 1.7rem;
+    color: var(--color-dark-b3);
+}
+.cw{
+    color: var(--colo-yellow);
+}
